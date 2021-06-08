@@ -18,7 +18,7 @@ The code is based on C++ and CUDA with the support of:
 - Pangolin
 - OpenCV with CUDA (v.4.5 is required) 
 - Eigen
-- CUDA (v.10 is required)
+- CUDA (v.11 is required)
 
 Our code has been tested with Nvidia GeForce RTX 2080 SUPER GPU on Ubuntu 16.04
 
