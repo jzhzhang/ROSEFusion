@@ -1,0 +1,12 @@
+%YAML:1.0
+name: apartment_1_raw
+seq_path: /media/jiazhao/Jiazhao_BACKUP/FastCaMo-synth/synthesis_seq/apartment_1/apartment_1_raw.seq
+result_path: /media/jiazhao/Jiazhao_BACKUP/FastCaMo-synth/FastCaMo-Synth-result/
+voxel_size: 20
+truncated_size: 60
+voxel_x: 712
+voxel_y: 712
+voxel_z: 712
+init_x: 0
+init_y: 0
+init_z: 1000

@@ -1,0 +1,20 @@
+%YAML:1.0
+
+  # ======================================================================================================== #
+  # room kt2 noise
+  # ======================================================================================================== #
+
+
+result_path: "/home/jiazhao/workspace/rofusion-server/build/ICL_NUIM_result/"
+seq_path: "/home/jiazhao/workspace/Pykinfu/ICL_NUIM_dataset/living_room_traj2n_frei_png/result.seq"
+name: kt2n
+
+voxel_size: 10
+truncated_size: 60
+voxel_x: 812
+voxel_y: 500
+voxel_z: 812
+
+init_x: 0
+init_y: 0
+init_z: 1000

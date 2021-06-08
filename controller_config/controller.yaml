@@ -1,0 +1,17 @@
+%YAML:1.0
+
+
+
+render_surface: 1
+PST_path: "../PST/"
+save_trajectory: 1
+save_scene: 1
+
+max_iteration: 20
+scaling_coefficient1: 0.18
+scaling_coefficient2: 0.09
+init_fitness: 0.5
+momentum: 0.9
+scaling_inherit_directly: 0
+
+

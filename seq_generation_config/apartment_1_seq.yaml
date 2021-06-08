@@ -1,0 +1,11 @@
+%YAML:1.0
+
+seq_name: apartment_1
+association_file: /media/jiazhao/Jiazhao_BACKUP/FastCaMo-real/FastCaMo-real-data/apartment_1/associations.txt
+output_path: /media/jiazhao/Jiazhao_BACKUP/FastCaMo-real/FastCaMo-real-seq/
+source_path: /media/jiazhao/Jiazhao_BACKUP/FastCaMo-real/FastCaMo-real-data/apartment_1/
+
+img_height: 480
+img_width: 640
+depth_ratio: 1000
+color_to_depth: 1

@@ -1,0 +1,13 @@
+%YAML:1.0
+---
+name: workshop_2
+seq_path: "/media/jiazhao/Jiazhao_BACKUP/FastCaMo-real/FastCaMo-real-seq/workshop_2.seq"
+result_path: /media/jiazhao/Jiazhao_BACKUP/FastCaMo-real/FastCaMo-real-result/
+voxel_size: 20.
+truncated_size: 60.
+voxel_x: 812.
+voxel_y: 512.
+voxel_z: 812.
+init_x: 0.
+init_y: 0.
+init_z: 1000.

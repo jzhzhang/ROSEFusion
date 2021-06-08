@@ -1,0 +1,11 @@
+%YAML:1.0
+
+seq_name: kt1n
+association_file: /home/jiazhao/workspace/Pykinfu/ICL_NUIM_dataset/living_room_traj1n_frei_png/associations.txt
+output_path: /home/jiazhao/workspace/Pykinfu/ICL_NUIM_dataset/living_room_traj1n_frei_png/
+source_path: /home/jiazhao/workspace/Pykinfu/ICL_NUIM_dataset/living_room_traj1n_frei_png/
+
+img_height: 480
+img_width: 640
+depth_ratio: 5000
+color_to_depth: 1

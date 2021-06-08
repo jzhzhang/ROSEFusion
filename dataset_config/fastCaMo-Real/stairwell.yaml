@@ -1,0 +1,13 @@
+%YAML:1.0
+---
+name: stairwell
+seq_path: "/media/jiazhao/Jiazhao_BACKUP/FastCaMo-real/FastCaMo-real-seq/stairwell.seq"
+result_path: /media/jiazhao/Jiazhao_BACKUP/FastCaMo-real/FastCaMo-real-result/
+voxel_size: 20.
+truncated_size: 60.
+voxel_x: 512.
+voxel_y: 812.
+voxel_z: 612.
+init_x: 0.
+init_y: 0.
+init_z: 0.

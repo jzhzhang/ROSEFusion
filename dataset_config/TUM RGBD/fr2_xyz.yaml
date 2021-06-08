@@ -1,0 +1,20 @@
+%YAML:1.0
+
+  # ======================================================================================================== #
+  # tum fr2 xyz
+  # ======================================================================================================== #
+
+
+name: "fr2_xyz"
+result_path: "tum_result/"
+seq_path: "../tum_dataset/tum_dataset/rgbd_dataset_freiburg2_xyz/result.seq"
+
+voxel_size: 10
+truncated_size: 30
+voxel_x: 512
+voxel_y: 512
+voxel_z: 512
+
+init_x: 0
+init_y: 0
+init_z: 1000

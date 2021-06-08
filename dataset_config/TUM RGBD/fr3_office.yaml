@@ -1,0 +1,22 @@
+%YAML:1.0
+
+  # ======================================================================================================== #
+  # tum fr3 office
+  # ======================================================================================================== #
+
+
+name: "fr3_office"
+result_path: "tum_result/"
+seq_path: "../tum_dataset/rgbd_dataset_freiburg3_long_office_household/result.seq"
+
+voxel_size: 10
+truncated_size: 40
+voxel_x: 512
+voxel_y: 512
+voxel_z: 512
+
+init_x: 0
+init_y: 0
+init_z: 2500
+
+
