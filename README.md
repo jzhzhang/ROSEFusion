@@ -15,12 +15,34 @@ ROSEFsuion is proposed to tackle the difficulties in fast-motion camera tracking
 
 ## Installation
 The code is based on C++ and CUDA with the support of:
-- Pangolin
-- OpenCV with CUDA (v.4.5 is required) 
+- [Pangolin](https://github.com/stevenlovegrove/Pangolin)
+- OpenCV with CUDA (v.4.5 is required, for instance you can follow the [link](https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7))  
 - Eigen
-- CUDA (v.11 is required)
+- CUDA (v.11 and above is required)
 
-Our code has been tested with Nvidia GeForce RTX 2080 SUPER GPU on Ubuntu 16.04
+Befor building, please make sure the architecture ```(sm_xx and compute_xx)``` in the [L22 of CMakeLists.txt](CMakeLists.txt#L22) is compatible with your own graphics card.
+
+
+Our code has been tested with Nvidia GeForce RTX 2080 SUPER on Ubuntu 16.04. 
+
+## Test with Docker
+
+We have already upload a docker image with all the lib, code and data. Please download the image from the [google drive](https://drive.google.com/file/d/1sNvm8vSJM5MxxDpgkqDo-FhpwXBdraMb/view?usp=sharing).
+
+### **Prepare**
+Make sure you have successfully installed the [docker](https://www.docker.com/) and [nvidia docker](github.com/NVIDIA/nvidia-docker). Once the environment is ready, you can using following commands to boot the docker image:
+```
+sudo docker load -i rosefusion_docker.tar 
+sudo docker run -it  --gpus all jiazhao/rosefusion:v7 /bin/bash
+```
+
+
+And please check the architecture in the L22 of ``` /home/code/ROSEFusion-main/CMakeList.txt``` is compatible with your own graphics card. If not, change the sm_xx and compute_xx, then rebuild the ROSEFusion.
+
+
+### **QuickStart**
+All the data and configuration files are ready for using. You can find "run_example.sh" and "run_stairwell.sh" in ```/home/code/ROSEFusion-main/build```. After running the scripts, the trajectory and reconstuciton results woulSd be generated in ```/home/code/rosefusion_xxx_data```. 
+
 
 
 ## Configuration File
@@ -72,7 +94,7 @@ There are 12 [real captured RGB-D sequences](https://drive.google.com/drive/fold
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
-@article {zhang_sig20,
+@article {zhang_sig21,
     title = {ROSEFusion: Random Optimization for Online Dense Reconstruction under Fast Camera Motion},
     author = {Jiazhao Zhang and Chenyang Zhu and Lintao Zheng and Kai Xu},
     journal = {ACM Transactions on Graphics (SIGGRAPH 2021)},
