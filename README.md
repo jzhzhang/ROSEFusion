@@ -25,7 +25,7 @@ Befor building, please make sure the architecture ```(sm_xx and compute_xx)``` i
 
 Our code has been tested with Nvidia GeForce RTX 2080 SUPER on Ubuntu 16.04. 
 
-## Test with Docker
+## [Option] Test with Docker
 
 We have already upload a docker image with all the lib, code and data. Please download the image from the [google drive](https://drive.google.com/file/d/1sNvm8vSJM5MxxDpgkqDo-FhpwXBdraMb/view?usp=sharing).
 
