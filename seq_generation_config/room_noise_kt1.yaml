@@ -8,4 +8,4 @@ source_path: /home/jiazhao/workspace/Pykinfu/ICL_NUIM_dataset/living_room_traj1n
 img_height: 480
 img_width: 640
 depth_ratio: 5000
-color_to_depth: 1
+color_to_depth: 0
