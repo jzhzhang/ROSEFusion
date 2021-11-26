@@ -20,7 +20,7 @@ The code is based on C++ and CUDA with the support of:
 - Eigen
 - CUDA (v.11 and above is required)
 
-Befor building, please make sure the architecture ```(sm_xx and compute_xx)``` in the [L22 of CMakeLists.txt](CMakeLists.txt#L22) is compatible with your own graphics card.
+Before building, please make sure the architecture ```(sm_xx and compute_xx)``` in the [L22 of CMakeLists.txt](CMakeLists.txt#L22) is compatible with your own graphics card.
 
 
 Our code has been tested with Nvidia GeForce RTX 2080 SUPER on Ubuntu 16.04. 
@@ -41,7 +41,7 @@ And please check the architecture in the L22 of ``` /home/code/ROSEFusion-main/C
 
 
 ### **QuickStart**
-All the data and configuration files are ready for using. You can find "run_example.sh" and "run_stairwell.sh" in ```/home/code/ROSEFusion-main/build```. After running the scripts, the trajectory and reconstuciton results woulSd be generated in ```/home/code/rosefusion_xxx_data```. 
+All the data and configuration files are ready for using. You can find "run_example.sh" and "run_stairwell.sh" in ```/home/code/ROSEFusion-main/build```. After running the scripts, the trajectory and reconstuciton results would be generated in ```/home/code/rosefusion_xxx_data```. 
 
 
 
