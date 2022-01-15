@@ -64,7 +64,7 @@ Once finished, there will be a `.seq` file containing all the information of the
 
 
 ## Particle Swarm Template
-We share the same pre-sampled PST as we used in our paper. Each PST is saved as an N×6 image and the N represents the number of particles. You can find the ``.tiff`` images in [PST dicrectory](/PST), and please prelace the PST path in ``controller_config.yaml `` with your own path.
+We share the same pre-sampled PST as we used in our paper. Each PST is saved as an N×6 image and the N represents the number of particles. You can find the ``.tiff`` images in [PST dicrectory](/PST), and please replace the PST path in ``controller_config.yaml `` with your own path.
 
 ## Running
 To run the fusion code, you need to provide the `camera_config.yaml`, `data_config.yaml` and `controller_config.yaml`. We already share configuration files of many common datasets in `./camera_config`, `./data_config`, `/controller_config`. All the parameters of configuration can be modified as you want. With all the preparation done, you can run the code below:
