@@ -7,7 +7,7 @@ This project is based on our SIGGRAPH 2021 paper, [ROSEFusion: **R**andom **O**p
 
 ## Introduction
 
-ROSEFsuion is proposed to tackle the difficulties in fast-motion camera tracking using random optimization with depth information only. Our method performs robust  camera tracking under fast camera motion at a real-time framerate, without including loop closure or global pose optimization.
+ROSEFsuion is proposed to tackle the difficulties in fast-motion camera tracking using random optimization with depth information only. Our method performs robust  camera tracking under fast camera motion at a real-time frame rate, without loop closure or global pose optimization.
 
  <p id="demo1" align="center"> 
   <img src="assets/intro.gif" />
