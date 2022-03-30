@@ -15,9 +15,9 @@ ROSEFusion is proposed to tackle the difficulties in fast-motion camera tracking
 
 ## Installation
 Our code is based on C++ and CUDA with the support of:
-- [Pangolin](https://github.com/stevenlovegrove/Pangolin)
+- [Pangolin](https://github.com/stevenlovegrove/Pangolin) (tested on v0.6)
 - OpenCV with CUDA (v.4.5 is required, for instance you can follow the [link](https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7))  
-- Eigen
+- Eigen (tested on 3.3.9)
 - CUDA (v.11 and above is required)
 
 Please make sure the architecture ```(sm_xx and compute_xx)``` in the [L22 of CMakeLists.txt](CMakeLists.txt#L22) is compatible with your own graphics card.
