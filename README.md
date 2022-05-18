@@ -71,7 +71,7 @@ Finally, to run the ROSEFusion, you need to provide the `camera_config.yaml`, `d
 ```
 ./ROSEFsuion  your_camera_config.yaml your_data_config.yaml your_controller_config.yaml
 ```
-For a quick start, you can download and use a small size synthesis [seq file with related configuration files](https://drive.google.com/drive/folders/1vW5GV2xsJN1kIrl-5JZX1fUrpjCtp5AS?usp=sharing). Here is a preview.
+For a quick start, you can download and use a small size synthesis [seq file with related configuration files](https://1drv.ms/u/s!AvuKnc9E9hmqhhhkR1_FWUlDNxfO?e=M8S4iI). Here is a preview.
 
 
  <p id="demo1" align="center"> 
@@ -81,10 +81,10 @@ For a quick start, you can download and use a small size synthesis [seq file wit
 ## FastCaMo Dataset
 We present the **Fast** **Ca**mera **Mo**tion dataset, which contains both synthetic and real captured sequences. For more details, please refer to the paper.
 ### FastCaMo-Synth
-With 10 diverse room-scale scenes from [Replica Dataset](https://github.com/facebookresearch/Replica-Dataset), we render the color images and depth maps along the synthetic trajectories. The raw sequences are provided in [FastCaMo-synth-data(raw).zip](https://drive.google.com/file/d/15PG7jd1wFdf26zaPp-pq04RAoCRQA1qt/view?usp=sharing), and we also provide the [FastCaMo-synth-data(noise).zip](https://drive.google.com/file/d/1a8QLimLFvteac6OfGPxSsTqITrJSC2ox/view?usp=sharing) with synthetic noise and motion blur. We use the same noise model as [simkinect](https://github.com/ankurhanda/simkinect). For evaluation, you can download the ground truth [trajectories](https://drive.google.com/file/d/106p9N99K-X3_jbt8PRcKthySbpxhIwxB/view?usp=sharing).
+With 10 diverse room-scale scenes from [Replica Dataset](https://github.com/facebookresearch/Replica-Dataset), we render the color images and depth maps along the synthetic trajectories. The raw sequences are provided in [FastCaMo-synth-data(raw).zip](https://1drv.ms/u/s!AvuKnc9E9hmqhgljQdXKJECStZ-W?e=wWD2Tz), and we also provide the [FastCaMo-synth-data(noise).zip](https://1drv.ms/u/s!AvuKnc9E9hmqhgoktvWzmX_x6v2k?e=rO3MWv) with synthetic noise and motion blur. We use the same noise model as [simkinect](https://github.com/ankurhanda/simkinect). For evaluation, you can download the ground truth [trajectories](https://1drv.ms/u/s!AvuKnc9E9hmqhghwEOxFW4Za4orv?e=q9HRSK).
 
 ### FastCaMo-Real
-It contains 12 [real captured RGB-D sequences](https://drive.google.com/drive/folders/1kDUz_Vxjy5zi5LO8G5HwjkZ0WbetsBy1?usp=sharing) under fast camera motions. Each sequence is recorded in a challenging scene like gym or stairwell by using [Azure Kinect DK](https://azure.microsoft.com/en-us/services/kinect-dk/). We provide accurate dense reconstructions as ground truth, which are modeled with the high-end laser scanner. However, the original models are extremely large, and we utilized the built-in spatial downsample algorithm from cloudcompare. You can download the sub-sampled [models of FastCaMo-real form here](https://drive.google.com/drive/folders/1AXiTpC-UZ0WLhLCqjfKEPl5H40B0NccI?/usp=sharing). 
+It contains 12 [real captured RGB-D sequences](https://1drv.ms/u/s!AvuKnc9E9hmqhXtEpQ1fMViDRh6x?e=3sCYft) under fast camera motions. Each sequence is recorded in a challenging scene like gym or stairwell by using [Azure Kinect DK](https://azure.microsoft.com/en-us/services/kinect-dk/). We provide accurate dense reconstructions as ground truth, which are modeled with the high-end laser scanner. However, the original models are extremely large, and we utilized the built-in spatial downsample algorithm from cloudcompare. You can download the sub-sampled [models of FastCaMo-real form here](https://1drv.ms/u/s!AvuKnc9E9hmqhgtSGIIH1FL5V2b1?e=HhNB0c). 
 
  <p id="demo1" align="center"> 
   <img src="assets/fastcamo-real.gif" />
