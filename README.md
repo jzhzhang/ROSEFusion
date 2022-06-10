@@ -27,7 +27,7 @@ Our code has been tested with Nvidia GeForce RTX 2080 SUPER on Ubuntu 16.04.
 
 ## [Option] Test with Docker
 
-We have already upload a docker image with all the lib, code and data. You can download the docker image from the [One drive](https://1drv.ms/u/s!AvuKnc9E9hmqhh223HmWjxkJ9W2K?e=oyo506).
+We have already upload a docker image with all the lib, code and data. You can download the docker image from the [One drive](https://1drv.ms/u/s!AvuKnc9E9hmqhh_D_8pksC-cC2ma?e=K5DFnN).
 
 ### **Prepare**
 Please make sure you have successfully installed the [docker](https://www.docker.com/) and [nvidia docker](github.com/NVIDIA/nvidia-docker). and once the environment is ready, you can use following commands to boot the docker image:
