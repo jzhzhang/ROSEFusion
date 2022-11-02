@@ -13,17 +13,28 @@ ROSEFusion is proposed to tackle the difficulties in fast-motion camera tracking
   <img src="assets/intro.gif" />
  </p>
 
-## Installation
+## Installation 
+
+### tested environment 1 
 Our code is based on C++ and CUDA with the support of:
 - [Pangolin](https://github.com/stevenlovegrove/Pangolin) (tested on v0.6)
 - OpenCV with CUDA (v.4.5 is required, for instance you can follow the [link](https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7))  
 - Eigen (tested on 3.3.9)
 - CUDA (tested with V11.1, 11.4)
 
-Please make sure the architecture ```(sm_xx and compute_xx)``` in the [L22 of CMakeLists.txt](CMakeLists.txt#L22) is compatible with your own graphics card.
 
+The code has been tested with Nvidia GeForce RTX 2080 SUPER on Ubuntu 16.04. 
 
-Our code has been tested with Nvidia GeForce RTX 2080 SUPER on Ubuntu 16.04. 
+### tested environment 2
+Our code is based on C++ and CUDA with the support of:
+- [Pangolin](https://github.com/stevenlovegrove/Pangolin) (tested on v0.6)
+- OpenCV with CUDA (v.4.5.5 is required, for instance you can follow the [link](https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7))  
+- Eigen (tested on 3.4.0)
+- CUDA (tested with V11.8)
+
+The code has been tested with Nvidia GeForce RTX 3060 SUPER on Ubuntu 20.04. 
+
+**Please make sure the architecture ```(sm_xx and compute_xx)``` in the [L22 of CMakeLists.txt](CMakeLists.txt#L22) is compatible with your own graphics card.**
 
 ## [Option] Test with Docker
 
