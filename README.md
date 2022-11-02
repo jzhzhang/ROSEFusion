@@ -103,6 +103,14 @@ If you find our work useful in your research, please consider citing:
 }
 ```
 
+## FAQ
+Q: The ```Frame could not be processed``` error is reported when running the example data.
+
+A: Please make sure you have correctly installed the environment:
+- Check the ```ompute_xx,code=sm_xx``` and make sure it is valid for your GPU device. 
+- Build the opencv with ```-D WITH_CUDA=ON``` and make sure the ```-D CUDA_ARCH_BIN=x.x``` is valid for your GPU device.
+
+
 ## Acknowledgments
 Our code is inspired by [KinectFusionLib](https://github.com/chrdiller/KinectFusionLib).
 
