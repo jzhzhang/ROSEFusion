@@ -85,10 +85,10 @@ namespace rosefusion {
             if (*previous_frame_success && controller_config.scaling_inherit_directly){
                 search_size<< initialize_search_size(0,0),
                 initialize_search_size(1,0),
+                initialize_search_size(2,0),
                 initialize_search_size(3,0),
                 initialize_search_size(4,0),
-                initialize_search_size(5,0),
-                initialize_search_size(0,0);
+                initialize_search_size(5,0);
 
             }else{
                 float lens= controller_config.scaling_coefficient1*(*iter_tsdf);
